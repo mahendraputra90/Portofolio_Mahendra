@@ -1,0 +1,27 @@
+CRITICAL - 2022-04-28 06:57:35 --> Too few arguments to function App\Controllers\Koyo::halaman(), 0 passed in D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(832): App\Controllers\Koyo->halaman()
+#1 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Koyo))
+#2 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\Commands\Server\rewrite.php(43): require_once('D:\\UNDIKNAS\\SEM...')
+#5 {main}
+CRITICAL - 2022-04-28 08:30:13 --> Invalid file: index.php
+#0 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\app\Controllers\Home.php(9): view('index')
+#3 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\Commands\Server\rewrite.php(43): require_once('D:\\UNDIKNAS\\SEM...')
+#8 {main}
+CRITICAL - 2022-04-28 09:43:01 --> Invalid file: index.php
+#0 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\app\Controllers\Home.php(9): view('index')
+#3 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\UNDIKNAS\SEMESTER 6\PEMOGRAMAN WEB TINGKAT LANJUT\mahendraputra\system\Commands\Server\rewrite.php(43): require_once('D:\\UNDIKNAS\\SEM...')
+#8 {main}
